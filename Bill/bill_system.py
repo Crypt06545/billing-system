@@ -113,8 +113,8 @@ def send():
         def send_msg():
             message = textarea.get(1.0, END)
             number = numberfield.get()
-            auth = 'woVHAjOGldMsPhnT7gS6XRIi4cYr0ym3FZkEWfKv9Qxauq8J2DHDWus7AqZKnkeXlVzQJa3fIRrp925S'
-            url = 'https://www.fast2sms.com/dev/bulk'
+            auth = 'Enter your auth'
+            url = 'Type yuor url'
 
             params = {
                 'authorization': auth,
